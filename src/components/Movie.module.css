@@ -1,0 +1,43 @@
+.movie {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #932432;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+}
+
+.movie h2 {
+  font-size: 2rem;
+  color:  #3C1874;
+}
+
+.movie h3 {
+  color: #eccf77;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.movie p{
+  color: #283747;
+}
+
+.movie div p{
+  width: 20rem;
+  background: radial-gradient(circle, hsla(50, 100%, 79%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+  border: 10px inset whitesmoke;
+  border-radius: 10px;
+}
+
+.movie div p:hover{
+  border: 10px outset whitesmoke;
+  border-radius: 10px;
+}
+
+.movie div{
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+
